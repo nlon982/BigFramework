@@ -87,6 +87,12 @@ def setup(a_node, entry_1, entry_2, entry_3, entry_4):
 def string_processor(a_node, a_string):
     a_list = a_string.split(" ")
     
+    # clean any might've accidental spaces etc.
+    while "" in a_list:
+        a_list.remove("")
+    while " " in a_list:
+        a_list.remove(" ")
+    
     if len(a_list) % 4 != 0: # error prevention
         print("Not divisible by 4")
         return
