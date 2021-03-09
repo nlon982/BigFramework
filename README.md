@@ -1,5 +1,5 @@
 # BigFramework
-A framework to quickly make node setups / configure parameters in Houdini.
+A framework to quickly make node setups / configure parameters in Houdini. To those unfamiliar with [Python Scripting in Houdini](https://www.sidefx.com/docs/houdini/hom/hou/index.html), this is something you can put in a Houdini shelftool (or anywhere else that uses Houdini's Python API, which is the module 'hou') and make use of.
 
 Walkthrough: https://imgur.com/a/kyAnCXC
 
