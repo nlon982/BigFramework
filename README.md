@@ -1,5 +1,5 @@
 # BigFramework
-A framework to quickly make node setups / configure parameters
+A framework to quickly make node setups / configure parameters in Houdini.
 
 Walkthrough: https://imgur.com/a/kyAnCXC
 
